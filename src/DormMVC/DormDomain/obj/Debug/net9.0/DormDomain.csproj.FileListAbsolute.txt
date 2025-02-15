@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\bin\Debug\net9.0\DormDomain.deps.json
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\bin\Debug\net9.0\DormDomain.dll
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\bin\Debug\net9.0\DormDomain.pdb
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.AssemblyInfo.cs
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.dll
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\refint\DormDomain.dll
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.pdb
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\ref\DormDomain.dll
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\bin\Debug\net9.0\DormDomain.runtimeconfig.json
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\uni\ISTP\lab01\src\DormMVC\DormDomain\obj\Debug\net9.0\DormDomain.genruntimeconfig.cache
