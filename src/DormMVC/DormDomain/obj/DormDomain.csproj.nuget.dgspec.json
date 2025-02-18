@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\uni\\ISTP\\lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj": {}
+    "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\uni\\ISTP\\lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj": {
+    "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj",
         "projectName": "DormDomain",
-        "projectPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\DormDomain.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\lab01\\src\\DormMVC\\DormDomain\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

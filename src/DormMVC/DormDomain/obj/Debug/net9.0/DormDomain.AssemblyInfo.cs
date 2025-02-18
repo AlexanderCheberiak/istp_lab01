@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DormDomain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7a4e64ee2bd1217256c778b5672a3ba78cd9f604")]
 [assembly: System.Reflection.AssemblyProductAttribute("DormDomain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DormDomain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
