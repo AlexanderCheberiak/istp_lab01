@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\paymenttypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\paymenttypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +43,83 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentChangesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAkwEQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:59:09.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuestVisitsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAkwD0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:56:01.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentPaymentsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:59:45.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PaymentTypesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\PaymentTypesController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\PaymentTypesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\PaymentTypesController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\PaymentTypesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:57:08.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FacultiesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:42:41.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\RoomsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:41:53.269Z"
             }
           ]
         }

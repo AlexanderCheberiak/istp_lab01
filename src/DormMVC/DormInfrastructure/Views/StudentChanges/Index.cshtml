@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DormDomain.Model.StudentChange>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ChangeDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ChangeField)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OldValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NewValue)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChangeDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ChangeField)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OldValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NewValue)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Student.FullName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ChangeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ChangeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ChangeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
