@@ -59,10 +59,21 @@ namespace DormInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("VisitId,GuestName,StudentId,VisitDate")] GuestVisit guestVisit)
         {
-            Student student = _context.Students.FirstOrDefault(s => s.StudentId == guestVisit.StudentId);
-            guestVisit.Student = student;
-            ModelState.Clear();
-            TryValidateModel(guestVisit);
+            Student student = _context.Students
+                .Include(s => s.Faculty)
+                .Include(s => s.Room)
+                .FirstOrDefault(s => s.StudentId == guestVisit.StudentId);
+
+            if (student == null)
+            {
+                ModelState.AddModelError("StudentId", "Invalid student ID.");
+            }
+            else
+            {
+                guestVisit.Student = student;
+                ModelState.Clear();
+                TryValidateModel(guestVisit);
+            }
 
             if (ModelState.IsValid)
             {
@@ -101,6 +112,22 @@ namespace DormInfrastructure.Controllers
             if (id != guestVisit.VisitId)
             {
                 return NotFound();
+            }
+
+            Student student = _context.Students
+    .Include(s => s.Faculty)
+    .Include(s => s.Room)
+    .FirstOrDefault(s => s.StudentId == guestVisit.StudentId);
+
+            if (student == null)
+            {
+                ModelState.AddModelError("StudentId", "Invalid student ID.");
+            }
+            else
+            {
+                guestVisit.Student = student;
+                ModelState.Clear();
+                TryValidateModel(guestVisit);
             }
 
             if (ModelState.IsValid)

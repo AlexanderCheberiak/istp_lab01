@@ -12,6 +12,7 @@ namespace DormInfrastructure.Controllers
 {
     public class StudentsController : Controller
     {
+
         private readonly DormContext _context;
 
         public StudentsController(DormContext context)
@@ -49,8 +50,8 @@ namespace DormInfrastructure.Controllers
         // GET: Students/Create
         public IActionResult Create()
         {
-            ViewData["FacultyId"] = new SelectList(_context.Faculties, "FacultyId", "FacultyId");
-            ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomId");
+            ViewData["FacultyId"] = new SelectList(_context.Faculties, "FacultyId", "FacultyName");
+            ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomNumber");
             return View();
         }
 
@@ -61,6 +62,13 @@ namespace DormInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("StudentId,FullName,BirthDate,FacultyId,Course,RoomId,CreatedAt,UpdatedAt")] Student student)
         {
+            Faculty faculty = _context.Faculties.FirstOrDefault(f => f.FacultyId == student.FacultyId);
+            Room room = _context.Rooms.FirstOrDefault(r => r.RoomId == student.RoomId);
+            student.Faculty = faculty;
+            student.Room = room;
+            ModelState.Clear();
+            TryValidateModel(student);
+
             if (ModelState.IsValid)
             {
                 _context.Add(student);
@@ -101,6 +109,13 @@ namespace DormInfrastructure.Controllers
             {
                 return NotFound();
             }
+
+            Faculty faculty = _context.Faculties.FirstOrDefault(f => f.FacultyId == student.FacultyId);
+            Room room = _context.Rooms.FirstOrDefault(r => r.RoomId == student.RoomId);
+            student.Faculty = faculty;
+            student.Room = room;
+            ModelState.Clear();
+            TryValidateModel(student);
 
             if (ModelState.IsValid)
             {
@@ -152,13 +167,18 @@ namespace DormInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(short id)
         {
-            var student = await _context.Students.FindAsync(id);
+            var student = await _context.Students
+                .Include(s => s.GuestVisits)
+                .FirstOrDefaultAsync(s => s.StudentId == id);
+
             if (student != null)
             {
+                // Remove related GuestVisits first
+                _context.GuestVisits.RemoveRange(student.GuestVisits);
                 _context.Students.Remove(student);
+                await _context.SaveChangesAsync();
             }
 
-            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 

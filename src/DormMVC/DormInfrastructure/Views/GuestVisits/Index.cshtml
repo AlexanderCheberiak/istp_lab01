@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<DormDomain.Model.GuestVisit>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Відвідування";
 }
 
-<h1>Index</h1>
+<h1>Відвідування</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Додати запис</a>
 </p>
 <table class="table">
     <thead>
@@ -37,9 +37,8 @@
                 @Html.DisplayFor(modelItem => item.Student.FullName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.VisitId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.VisitId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.VisitId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.VisitId">Оновити</a> |
+                <a asp-action="Details" asp-route-id="@item.VisitId">Деталі</a> 
             </td>
         </tr>
 }

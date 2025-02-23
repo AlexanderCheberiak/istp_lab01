@@ -61,19 +61,21 @@ namespace DormInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("PaymentId,StudentId,Amount,PaymentTypeId,PaymentDate")] StudentPayment studentPayment)
         {
-            //PaymentType? paymentType = _context.PaymentTypes.FirstOrDefault(pt => pt.PaymentTypeId == studentPayment.PaymentTypeId);
-            //if (paymentType == null)
-            //{
-            //    ModelState.AddModelError("PaymentTypeId", "Invalid Payment Type");
-            //    ViewData["PaymentTypeId"] = new SelectList(_context.PaymentTypes, "PaymentTypeId", "PaymentName", studentPayment.PaymentTypeId);
-            //    ViewData["StudentId"] = new SelectList(_context.Students, "StudentId", "FullName", studentPayment.StudentId);
-            //    return View(studentPayment);
-            //}
-            Student student = _context.Students.FirstOrDefault(s => s.StudentId == studentPayment.StudentId);
-            //studentPayment.PaymentType = paymentType;
-            studentPayment.Student = student;
-            ModelState.Clear();
-            TryValidateModel(studentPayment);
+            Student student = _context.Students
+                .Include(s => s.Faculty)
+                .Include(s => s.Room)
+                .FirstOrDefault(s => s.StudentId == studentPayment.StudentId);
+
+            if (student == null)
+            {
+                ModelState.AddModelError("StudentId", "Invalid student ID.");
+            }
+            else
+            {
+                studentPayment.Student = student;
+                ModelState.Clear();
+                TryValidateModel(studentPayment);
+            }
 
             if (ModelState.IsValid)
             {
@@ -114,6 +116,22 @@ namespace DormInfrastructure.Controllers
             if (id != studentPayment.PaymentId)
             {
                 return NotFound();
+            }
+
+            Student student = _context.Students
+    .Include(s => s.Faculty)
+    .Include(s => s.Room)
+    .FirstOrDefault(s => s.StudentId == studentPayment.StudentId);
+
+            if (student == null)
+            {
+                ModelState.AddModelError("StudentId", "Invalid student ID.");
+            }
+            else
+            {
+                studentPayment.Student = student;
+                ModelState.Clear();
+                TryValidateModel(studentPayment);
             }
 
             if (ModelState.IsValid)

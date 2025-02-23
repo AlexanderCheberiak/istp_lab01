@@ -1,13 +1,13 @@
 ﻿@model IEnumerable<DormDomain.Model.Student>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Студенти";
 }
 
-<h1>Index</h1>
+<h1>Студенти</h1>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Додати студента</a>
 </p>
 <table class="table">
     <thead>
@@ -55,15 +55,15 @@
                 @Html.DisplayFor(modelItem => item.UpdatedAt)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Faculty.FacultyId)
+                @Html.DisplayFor(modelItem => item.Faculty.FacultyName)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Room.RoomId)
+                @Html.DisplayFor(modelItem => item.Room.RoomNumber)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.StudentId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.StudentId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.StudentId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.StudentId">Оновити</a> |
+                <a asp-action="Details" asp-route-id="@item.StudentId">Деталі</a> |
+                <a asp-action="Delete" asp-route-id="@item.StudentId">Видалити</a>
             </td>
         </tr>
 }

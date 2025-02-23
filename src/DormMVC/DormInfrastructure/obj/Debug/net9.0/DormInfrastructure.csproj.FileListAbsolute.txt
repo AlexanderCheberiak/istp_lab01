@@ -473,8 +473,6 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\scopedcss\bundle\DormInfrastructure.styles.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\scopedcss\projectbundle\DormInfrastructure.bundle.scp.css
-C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\hiq52m4qls-b9sayid5wm.gz
-C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\w7fhukd6fn-61n19gt1b8.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\4y2lxl8jv0-xtxxf3hu2r.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\0r6n01t7a3-t1cqhe9u97.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\k2lgcpl72d-c2jlpeoesf.gz
@@ -553,3 +551,5 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\DormInfrastructure.pdb
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\DormInfrastructure.genruntimeconfig.cache
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\ref\DormInfrastructure.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\hiq52m4qls-rm6m2j9jnu.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\w7fhukd6fn-13h8wyyqne.gz

@@ -1,14 +1,12 @@
 ﻿@model IEnumerable<DormDomain.Model.Room>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Кімнати";
 }
 
-<h1>Index</h1>
+<h1>Кімнати</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
 <table class="table">
     <thead>
         <tr>
@@ -43,9 +41,8 @@
                 @Html.DisplayFor(modelItem => item.UpdatedAt)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.RoomId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.RoomId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.RoomId">Delete</a>
+                <a asp-action="Edit" asp-route-id="@item.RoomId">Оновити</a> |
+                <a asp-action="Details" asp-route-id="@item.RoomId">Деталі</a> 
             </td>
         </tr>
 }

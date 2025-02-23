@@ -1,12 +1,11 @@
 ﻿@model DormDomain.Model.Room
 
 @{
-    ViewData["Title"] = "Edit";
+    ViewData["Title"] = "Оновлення";
 }
 
-<h1>Edit</h1>
+<h1>Оновлення інформації</h1>
 
-<h4>Room</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
@@ -23,25 +22,21 @@
                 <input asp-for="Capacity" class="form-control" />
                 <span asp-validation-for="Capacity" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CreatedAt" class="control-label"></label>
-                <input asp-for="CreatedAt" class="form-control" />
-                <span asp-validation-for="CreatedAt" class="text-danger"></span>
-            </div>
+            <input type="hidden" asp-for="CreatedAt" />
             <div class="form-group">
                 <label asp-for="UpdatedAt" class="control-label"></label>
                 <input asp-for="UpdatedAt" class="form-control" />
                 <span asp-validation-for="UpdatedAt" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
+                <input type="submit" value="Зберегти" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Назад до списку</a>
 </div>
 
 @section Scripts {
