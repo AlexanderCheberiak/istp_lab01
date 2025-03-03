@@ -41,8 +41,8 @@
                 @Html.DisplayFor(modelItem => item.UpdatedAt)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.RoomId">Оновити</a> |
-                <a asp-action="Details" asp-route-id="@item.RoomId">Деталі</a> 
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.RoomId">Оновити</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.RoomId">Деталі</a>
             </td>
         </tr>
 }

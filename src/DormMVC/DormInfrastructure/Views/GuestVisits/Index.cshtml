@@ -7,7 +7,7 @@
 <h1>Відвідування</h1>
 
 <p>
-    <a asp-action="Create">Додати запис</a>
+    <a class="btn btn-success" asp-action="Create">Додати запис про відвідування</a>
 </p>
 <table class="table">
     <thead>
@@ -37,8 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Student.FullName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.VisitId">Оновити</a> |
-                <a asp-action="Details" asp-route-id="@item.VisitId">Деталі</a> 
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.VisitId">Оновити</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.VisitId">Деталі</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.VisitId">Видалити</a>
             </td>
         </tr>
 }

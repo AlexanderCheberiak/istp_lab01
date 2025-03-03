@@ -1,12 +1,12 @@
 ﻿@model DormDomain.Model.StudentChange
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Видалення";
 }
 
-<h1>Delete</h1>
+<h1>Видалення</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Ви впевнені?</h3>
 <div>
     <h4>StudentChange</h4>
     <hr />
@@ -43,9 +43,9 @@
         </dd>
     </dl>
     
-    <form asp-action="Delete">
+    <form asp-action="Видалити">
         <input type="hidden" asp-for="ChangeId" />
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index">Назад до списку</a>
     </form>
 </div>

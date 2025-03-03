@@ -149,6 +149,22 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+      "Id": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_united.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },

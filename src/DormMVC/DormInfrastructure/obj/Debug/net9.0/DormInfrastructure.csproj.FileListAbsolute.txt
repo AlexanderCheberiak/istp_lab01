@@ -553,3 +553,7 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\ref\DormInfrastructure.dll
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\hiq52m4qls-rm6m2j9jnu.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\w7fhukd6fn-13h8wyyqne.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\i4eeuuxvqt-ts9hdqgpk7.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\byb9apzkz7-dcpn1yequ1.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\t8x440wer7-xpgxgyn6m7.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\1wimlvuxyk-zue256ldax.gz

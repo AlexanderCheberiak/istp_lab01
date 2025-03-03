@@ -53,9 +53,10 @@ public partial class DormContext : DbContext
 
             entity.ToTable("GuestVisit");
 
-            entity.Property(e => e.VisitId)
-                .ValueGeneratedNever()
-                .HasColumnName("VisitID");
+            //entity.Property(e => e.VisitId)
+            //    .ValueGeneratedNever()
+            //    .HasColumnName("VisitID");
+            entity.Property(e => e.VisitId).ValueGeneratedOnAdd();
             entity.Property(e => e.GuestName).HasMaxLength(50);
             entity.Property(e => e.StudentId).HasColumnName("StudentID");
 
@@ -88,9 +89,10 @@ public partial class DormContext : DbContext
         {
             entity.ToTable("Student");
 
-            entity.Property(e => e.StudentId)
-                .ValueGeneratedNever()
-                .HasColumnName("StudentID");
+            //entity.Property(e => e.StudentId)
+            //    .ValueGeneratedNever()
+            //    .HasColumnName("StudentID");
+            entity.Property(e => e.StudentId).ValueGeneratedOnAdd();
             entity.Property(e => e.CreatedAt).HasColumnType("datetime");
             entity.Property(e => e.FacultyId).HasColumnName("FacultyID");
             entity.Property(e => e.FullName).HasMaxLength(50);
@@ -109,10 +111,12 @@ public partial class DormContext : DbContext
         modelBuilder.Entity<StudentChange>(entity =>
         {
             entity.HasKey(e => e.ChangeId);
+            entity.Property(e => e.ChangeId).ValueGeneratedOnAdd(); //manually added
 
-            entity.Property(e => e.ChangeId)
-                .ValueGeneratedNever()
-                .HasColumnName("ChangeID");
+            //entity.Property(e => e.ChangeId)
+            //    .ValueGeneratedNever()
+            //    .HasColumnName("ChangeID");
+            entity.Property(e => e.ChangeId).ValueGeneratedOnAdd();
             entity.Property(e => e.ChangeField).HasMaxLength(50);
             entity.Property(e => e.NewValue).HasMaxLength(50);
             entity.Property(e => e.OldValue).HasMaxLength(50);
@@ -130,9 +134,10 @@ public partial class DormContext : DbContext
 
             entity.ToTable("StudentPayment");
 
-            entity.Property(e => e.PaymentId)
-                .ValueGeneratedNever()
-                .HasColumnName("PaymentID");
+            //entity.Property(e => e.PaymentId)
+            //    .ValueGeneratedNever()
+            //    .HasColumnName("PaymentID");
+            entity.Property(e => e.PaymentId).ValueGeneratedOnAdd();
             entity.Property(e => e.PaymentTypeId).HasColumnName("PaymentTypeID");
             entity.Property(e => e.StudentId).HasColumnName("StudentID");
 

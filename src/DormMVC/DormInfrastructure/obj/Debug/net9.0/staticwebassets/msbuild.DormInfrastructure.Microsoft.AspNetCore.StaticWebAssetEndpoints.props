@@ -432,6 +432,54 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zub09dkrxp"},{"Name":"integrity","Value":"sha256-CzmECrtXV8BSk/\u002B8SG\u002BRw7Fr\u002B3hCt2bS2bEkS4YD3PQ="},{"Name":"label","Value":"_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"293102"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022CzmECrtXV8BSk/\u002B8SG\u002BRw7Fr\u002B3hCt2bS2bEkS4YD3PQ=\u0022"},{"Name":"Last-Modified","Value":"Tue, 18 Feb 2025 15:17:04 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I5\u002BcuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"294544"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022I5\u002BcuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:02:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"244192"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:02:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.min.dcpn1yequ1.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dcpn1yequ1"},{"Name":"integrity","Value":"sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="},{"Name":"label","Value":"_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"244192"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:02:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.ts9hdqgpk7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ts9hdqgpk7"},{"Name":"integrity","Value":"sha256-I5\u002BcuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="},{"Name":"label","Value":"_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_quartz.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"294544"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022I5\u002BcuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:02:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"281212"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:07:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"233002"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:06:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.min.zue256ldax.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zue256ldax"},{"Name":"integrity","Value":"sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="},{"Name":"label","Value":"_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"233002"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:06:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.xpgxgyn6m7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xpgxgyn6m7"},{"Name":"integrity","Value":"sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="},{"Name":"label","Value":"_content/DormInfrastructure/lib/bootstrap/dist/css/bootstrap_united.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"281212"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00225Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 09:07:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DormInfrastructure/lib/bootstrap/dist/js/bootstrap.bundle.4094rpi4f9.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\js\bootstrap.bundle.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

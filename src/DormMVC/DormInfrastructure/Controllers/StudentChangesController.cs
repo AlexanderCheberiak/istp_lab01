@@ -20,10 +20,15 @@ namespace DormInfrastructure.Controllers
         }
 
         // GET: StudentChanges
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int? id, string? name)
         {
-            var dormContext = _context.StudentChanges.Include(s => s.Student);
-            return View(await dormContext.ToListAsync());
+            if (id == null) return RedirectToAction("Students", "Index");
+            //Find changes of a student
+            ViewBag.StudentId = id;
+            ViewBag.FullName = name;
+            var changesOfStudent = _context.StudentChanges.Where(c => c.StudentId == id).Include(c => c.Student);
+            //var dormContext = _context.StudentChanges.Include(s => s.Student);
+            return View(await changesOfStudent.ToListAsync());
         }
 
         // GET: StudentChanges/Details/5

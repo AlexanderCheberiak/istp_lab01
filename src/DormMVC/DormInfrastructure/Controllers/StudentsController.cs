@@ -44,7 +44,7 @@ namespace DormInfrastructure.Controllers
                 return NotFound();
             }
 
-            return View(student);
+            return RedirectToAction("Index", "StudentChanges", new { id = student.StudentId, name = student.FullName });
         }
 
         // GET: Students/Create
@@ -53,6 +53,11 @@ namespace DormInfrastructure.Controllers
             ViewData["FacultyId"] = new SelectList(_context.Faculties, "FacultyId", "FacultyName");
             ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomNumber");
             return View();
+        }
+
+        public async Task<short> GetMaxStudentId()
+        {
+            return await _context.Students.MaxAsync(s => s.StudentId);
         }
 
         // POST: Students/Create
@@ -121,8 +126,110 @@ namespace DormInfrastructure.Controllers
             {
                 try
                 {
+                    var originalStudent = await _context.Students.AsNoTracking().FirstOrDefaultAsync(s => s.StudentId == id);
+                    student.UpdatedAt = DateTime.Now;
                     _context.Update(student);
                     await _context.SaveChangesAsync();
+
+                    // Create StudentChange entries
+                    if (originalStudent != null)
+                    {
+                        if (originalStudent.FullName != student.FullName)
+                        {
+                            _context.StudentChanges.Add(new StudentChange
+                            {
+                                StudentId = student.StudentId,
+                                ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                ChangeField = "FullName",
+                                OldValue = originalStudent.FullName,
+                                NewValue = student.FullName
+                            });
+                        }
+                        if (originalStudent.BirthDate != student.BirthDate)
+                        {
+                            _context.StudentChanges.Add(new StudentChange
+                            {
+                                StudentId = student.StudentId,
+                                ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                ChangeField = "BirthDate",
+                                OldValue = originalStudent.BirthDate.ToString(),
+                                NewValue = student.BirthDate.ToString()
+                            });
+                        }
+                        if (originalStudent.FacultyId != student.FacultyId)
+                        {
+                            if (originalStudent.FacultyId != student.FacultyId)
+                            {
+                                var oldFaculty = await _context.Faculties.FindAsync(originalStudent.FacultyId);
+                                var newFaculty = await _context.Faculties.FindAsync(student.FacultyId);
+                                _context.StudentChanges.Add(new StudentChange
+                                {
+                                    StudentId = student.StudentId,
+                                    ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                    ChangeField = "FacultyName",
+                                    OldValue = oldFaculty?.FacultyName,
+                                    NewValue = newFaculty?.FacultyName
+                                });
+                            }
+                            if (originalStudent.RoomId != student.RoomId)
+                            {
+                                var oldRoom = await _context.Rooms.FindAsync(originalStudent.RoomId);
+                                var newRoom = await _context.Rooms.FindAsync(student.RoomId);
+                                _context.StudentChanges.Add(new StudentChange
+                                {
+                                    StudentId = student.StudentId,
+                                    ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                    ChangeField = "RoomNumber",
+                                    OldValue = oldRoom?.RoomNumber.ToString(),
+                                    NewValue = newRoom?.RoomNumber.ToString()
+                                });
+                            }
+                            //_context.StudentChanges.Add(new StudentChange
+                            //{
+                            //    StudentId = student.StudentId,
+                            //    ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                            //    ChangeField = "FacultyId",
+                            //    OldValue = originalStudent.FacultyId.ToString(),
+                            //    NewValue = student.FacultyId.ToString()
+                            //});
+                        }
+                        if (originalStudent.Course != student.Course)
+                        {
+                            _context.StudentChanges.Add(new StudentChange
+                            {
+                                StudentId = student.StudentId,
+                                ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                ChangeField = "Course",
+                                OldValue = originalStudent.Course.ToString(),
+                                NewValue = student.Course.ToString()
+                            });
+                        }
+                        if (originalStudent.RoomId != student.RoomId)
+                        {
+                            var oldRoom = await _context.Rooms.FindAsync(originalStudent.RoomId);
+                            var newRoom = await _context.Rooms.FindAsync(student.RoomId);
+                            _context.StudentChanges.Add(new StudentChange
+                            {
+                                StudentId = student.StudentId,
+                                ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                                ChangeField = "RoomNumber",
+                                OldValue = oldRoom?.RoomNumber.ToString(),
+                                NewValue = newRoom?.RoomNumber.ToString()
+                            });
+                        }
+                        //if (originalStudent.RoomId != student.RoomId)
+                        //{
+                        //    _context.StudentChanges.Add(new StudentChange
+                        //    {
+                        //        StudentId = student.StudentId,
+                        //        ChangeDate = DateOnly.FromDateTime(DateTime.Now),
+                        //        ChangeField = "Кімната",
+                        //        OldValue = originalStudent.RoomId.ToString(),
+                        //        NewValue = student.RoomId.ToString()
+                        //    });
+                        //}
+                        await _context.SaveChangesAsync();
+                    }
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -186,5 +293,6 @@ namespace DormInfrastructure.Controllers
         {
             return _context.Students.Any(e => e.StudentId == id);
         }
+
     }
 }

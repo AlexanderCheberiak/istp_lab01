@@ -11,11 +11,7 @@
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="PaymentId" class="control-label"></label>
-                <input asp-for="PaymentId" class="form-control" />
-                <span asp-validation-for="PaymentId" class="text-danger"></span>
-            </div>
+            <input type="hidden" asp-for="PaymentId" />
             <div class="form-group">
                 <label asp-for="StudentId" class="control-label"></label>
                 <select asp-for="StudentId" class ="form-control" asp-items="ViewBag.StudentId"></select>
@@ -35,14 +31,11 @@
                 <span asp-validation-for="PaymentDate" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Додати" class="btn btn-primary" />
+                <input type="submit" value="Додати" class="btn btn-success" />
+                <a class="btn btn-danger" asp-action="Index">Назад до списку</a>
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Назад до списку</a>
 </div>
 
 @section Scripts {

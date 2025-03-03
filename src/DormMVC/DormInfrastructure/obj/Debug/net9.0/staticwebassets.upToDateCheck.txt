@@ -3,6 +3,7 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\l
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap_united.min.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
@@ -19,6 +20,7 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\l
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap_quartz.min.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery-validation\dist\additional-methods.js
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
@@ -29,6 +31,7 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\l
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\css\site.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap_quartz.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery-validation\dist\jquery.validate.js
@@ -48,6 +51,7 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\l
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery\dist\jquery.js
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap_united.css
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\jquery\dist\jquery.min.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
@@ -71,6 +75,10 @@ wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap_quartz.css
+wwwroot\lib\bootstrap\dist\css\bootstrap_quartz.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap_united.css
+wwwroot\lib\bootstrap\dist\css\bootstrap_united.min.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css

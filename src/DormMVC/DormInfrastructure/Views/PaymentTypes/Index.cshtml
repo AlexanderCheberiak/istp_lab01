@@ -7,7 +7,7 @@
 <h1>Типи платежів</h1>
 
 <p>
-    <a asp-action="Create">Додати тип платежу</a>
+    <a class="btn btn-success" asp-action="Create">Додати тип платежу</a>
 </p>
 <table class="table">
     <thead>
@@ -25,9 +25,8 @@
                 @Html.DisplayFor(modelItem => item.PaymentName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.PaymentTypeId">Оновити</a> |
-                <a asp-action="Details" asp-route-id="@item.PaymentTypeId">Деталі</a> |
-                <a asp-action="Delete" asp-route-id="@item.PaymentTypeId">Видалити</a>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.PaymentTypeId">Оновити</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.PaymentTypeId">Видалити</a>
             </td>
         </tr>
 }

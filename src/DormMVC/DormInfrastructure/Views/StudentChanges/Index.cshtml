@@ -1,14 +1,11 @@
 ﻿@model IEnumerable<DormDomain.Model.StudentChange>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Зміни";
 }
 
-<h1>Index</h1>
+<h1>Зміни у записах про студентів</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
     <thead>
         <tr>
@@ -49,9 +46,6 @@
                 @Html.DisplayFor(modelItem => item.Student.FullName)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.ChangeId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ChangeId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ChangeId">Delete</a>
             </td>
         </tr>
 }

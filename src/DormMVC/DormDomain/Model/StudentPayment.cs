@@ -8,7 +8,6 @@ namespace DormDomain.Model;
 public partial class StudentPayment
 {
     [DisplayName("ID оплати")]
-    [Required(ErrorMessage = "Поле є обов'язковим!")]
     public short PaymentId { get; set; }
 
     [DisplayName("ID студента")]

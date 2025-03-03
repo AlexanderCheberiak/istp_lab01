@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y4a7yhh7nJTCFQPRxZPhjRFCkIcEj71pDl/4TPuy/tE=",
+  "Hash": "uvOJU0wNHT/nhtux6IgYRe9nZa0y5JIvu//FyK51xz0=",
   "Source": "DormInfrastructure",
   "BasePath": "_content/DormInfrastructure",
   "Mode": "Default",
@@ -141,6 +141,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\1wimlvuxyk-zue256ldax.gz",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_united.min#[.{fingerprint=zue256ldax}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "a7ukm89whl",
+      "Integrity": "GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\2ivyapdxub-hrwsygsryq.gz",
@@ -500,6 +521,27 @@
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\byb9apzkz7-dcpn1yequ1.gz",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_quartz.min#[.{fingerprint=dcpn1yequ1}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "gqczsi1b7u",
+      "Integrity": "yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css"
+    },
+    {
       "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\d1n3k7w2p9-83jwlth58m.gz",
       "SourceId": "DormInfrastructure",
       "SourceType": "Discovered",
@@ -708,6 +750,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\i4eeuuxvqt-ts9hdqgpk7.gz",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_quartz#[.{fingerprint=ts9hdqgpk7}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "g9s4f0wjap",
+      "Integrity": "7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\igutqe4cwk-h1s4sie4z3.gz",
@@ -1107,6 +1170,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\t8x440wer7-xpgxgyn6m7.gz",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_united#[.{fingerprint=xpgxgyn6m7}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2irka3yg61",
+      "Integrity": "xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\tdq7qevsjf-ttgo8qnofa.gz",
@@ -1632,6 +1716,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_quartz#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ts9hdqgpk7",
+      "Integrity": "I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_quartz.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dcpn1yequ1",
+      "Integrity": "Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_united#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xpgxgyn6m7",
+      "Integrity": "5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css",
+      "SourceId": "DormInfrastructure",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\",
+      "BasePath": "_content/DormInfrastructure",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap_united.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zue256ldax",
+      "Integrity": "RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css"
     },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -6619,6 +6787,1198 @@
         {
           "Name": "integrity",
           "Value": "sha256-q9WZtmMnJ+oJNgmN0eeT5IvKsKV1/YleuDnjGVjv4ps="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\i4eeuuxvqt-ts9hdqgpk7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028396990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\i4eeuuxvqt-ts9hdqgpk7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\byb9apzkz7-dcpn1yequ1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030553009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32729"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\byb9apzkz7-dcpn1yequ1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.dcpn1yequ1.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\byb9apzkz7-dcpn1yequ1.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000030553009"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32729"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcpn1yequ1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.dcpn1yequ1.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "244192"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcpn1yequ1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.min.dcpn1yequ1.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\byb9apzkz7-dcpn1yequ1.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "32729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dcpn1yequ1"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yOBe3rS05VLviGVQ0jqEIugbShWjThMXW09GNE/Q+zE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.ts9hdqgpk7.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\i4eeuuxvqt-ts9hdqgpk7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000028396990"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35214"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts9hdqgpk7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.ts9hdqgpk7.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_quartz.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "294544"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts9hdqgpk7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_quartz.ts9hdqgpk7.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\i4eeuuxvqt-ts9hdqgpk7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "35214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:02:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ts9hdqgpk7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_quartz.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7GgdLItFGsTGoTtUz7vx/DpKAYNrDgn2H5wVK0ItI24="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\t8x440wer7-xpgxgyn6m7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029819591"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33534"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\t8x440wer7-xpgxgyn6m7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\1wimlvuxyk-zue256ldax.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032007170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31242"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\1wimlvuxyk-zue256ldax.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.zue256ldax.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\1wimlvuxyk-zue256ldax.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000032007170"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31242"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zue256ldax"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.zue256ldax.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "233002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zue256ldax"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.min.zue256ldax.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\1wimlvuxyk-zue256ldax.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:06:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zue256ldax"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GqRTLfg+VPmqJaYo8iYuBNkYNYlSg7jp85EFSQfkP3o="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.xpgxgyn6m7.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\t8x440wer7-xpgxgyn6m7.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000029819591"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33534"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xpgxgyn6m7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.xpgxgyn6m7.css",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap_united.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xpgxgyn6m7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap_united.xpgxgyn6m7.css.gz",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\obj\\Debug\\net9.0\\compressed\\t8x440wer7-xpgxgyn6m7.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Feb 2025 09:07:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xpgxgyn6m7"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap_united.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xuFimP5YoS/VRA61OsXSxy5Ko9rSY/idIKw00e4rNjE="
         }
       ]
     },

@@ -7,7 +7,6 @@ namespace DormDomain.Model;
 public partial class GuestVisit
 {
     [Display(Name = "ID відвідування")]
-    [Required(ErrorMessage = "Поле є обов'язковим!")]
     public int VisitId { get; set; }
 
     [Display(Name = "Ім'я гостя")]

@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DormDomain.Model;
 
 public partial class Student
 {
     [Display(Name = "ID студента")]
-    [Required(ErrorMessage = "Поле є обов'язковим!")]
+    [Key]
     public short StudentId { get; set; }
 
     [Display(Name = "Повне ім'я")]

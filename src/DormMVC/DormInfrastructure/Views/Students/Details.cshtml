@@ -1,7 +1,7 @@
 ﻿@model DormDomain.Model.Student
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Деталі";
 }
 
 <h1>Студент</h1>
@@ -43,17 +43,17 @@
             @Html.DisplayNameFor(model => model.Faculty)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Faculty.FacultyId)
+            @Html.DisplayFor(model => model.Faculty.FacultyName)
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Room)
         </dt>
         <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Room.RoomId)
+            @Html.DisplayFor(model => model.Room.RoomNumber)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.StudentId">Оновити інформацію</a> |
-    <a asp-action="Index">Назад до списку</a>
+    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@Model?.StudentId">Оновити інформацію</a> |
+    <a class="btn btn-info" asp-action="Index">Назад до списку</a>
 </div>

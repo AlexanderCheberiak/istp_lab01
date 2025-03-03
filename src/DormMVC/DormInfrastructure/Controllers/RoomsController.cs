@@ -93,10 +93,16 @@ namespace DormInfrastructure.Controllers
                 return NotFound();
             }
 
+            if (room.RoomNumber <= 0)
+            {
+                ModelState.AddModelError("RoomNumber", "Номер кімнати має бути більшим за нуль.");
+            }
+
             if (ModelState.IsValid)
             {
                 try
                 {
+                    room.UpdatedAt = DateTime.Now; // Set UpdatedAt to the current time
                     _context.Update(room);
                     await _context.SaveChangesAsync();
                 }

@@ -31,5 +31,6 @@ public partial class StudentChange
     [Required(ErrorMessage = "Поле є обов'язковим!")]
     public string? NewValue { get; set; }
 
+    [Display(Name = "Студент")]
     public virtual Student Student { get; set; } = null!;
 }

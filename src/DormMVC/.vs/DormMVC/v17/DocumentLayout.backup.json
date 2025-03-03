@@ -3,36 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentchanges\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentchanges\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\studentchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\studentchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\rooms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -43,48 +67,112 @@
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\paymenttypes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\paymenttypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\paymenttypes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\paymenttypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\paymenttypes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentchangescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\studentchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\studentchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentchanges\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentchanges\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\dormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\dormcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\guestvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\guestvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\studentpayments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\studentpayments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentpaymentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -93,14 +181,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -115,60 +195,8 @@
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\paymenttypescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\studentpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\guestvisitscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\guestvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\guestvisit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\guestvisits\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\guestvisits\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\faculties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\faculties\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\faculty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\facultiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -186,7 +214,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -202,132 +230,158 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Delete.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Delete.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Delete.cshtml",
-              "ViewState": "AgIAACgAAAAAAAAAAAAlwDgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T13:32:20.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAlwCUAAAAyAAAAAAAAAA==",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Details.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T13:30:21.554Z",
+              "WhenOpened": "2025-02-19T07:44:21.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAEEAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T07:46:29.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Details.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Details.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Details.cshtml",
               "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Details.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAlwCMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAlwCcAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-23T13:25:59.017Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Details.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Details.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Details.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAlwB4AAAA6AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Delete.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T12:55:09.184Z",
+              "WhenOpened": "2025-02-23T13:32:20.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T12:54:53.952Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAlwHcAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T07:54:08.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T08:13:48.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAlwAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:55:08.865Z",
+              "DocumentIndex": 0,
+              "Title": "StudentChangesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:59:09.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAlwCwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T08:01:05.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Index.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Index.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Index.cshtml",
               "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Index.cshtml",
-              "ViewState": "AgIAABsAAAAAAAAAAAAmwCgAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACkAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-23T07:03:14.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:58:09.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T07:00:39.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentChanges\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentChanges\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentChanges\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\StudentChanges\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T12:58:06.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-22T12:28:20.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "StudentChange.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentChange.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\StudentChange.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentChange.cs",
+              "RelativeToolTip": "DormDomain\\Model\\StudentChange.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T21:06:31.105Z",
               "EditorCaption": ""
             },
             {
@@ -338,14 +392,354 @@
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\RoomsController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\RoomsController.cs",
               "RelativeToolTip": "DormInfrastructure\\Controllers\\RoomsController.cs",
-              "ViewState": "AgIAAHkAAAAAAAAAAAAowH8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAuwGgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T15:41:53.269Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACkAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T07:58:45.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T10:55:08.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T22:05:16.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\PaymentTypes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T08:13:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\PaymentTypes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Delete.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\PaymentTypes\\Delete.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T12:13:07.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T12:21:57.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAwCYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T13:30:21.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T08:01:56.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Details.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Details.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Details.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:54:51.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCoAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:51:11.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Create.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Create.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T06:57:13.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Create.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Create.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-02T17:12:36.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Delete.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T12:12:44.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T10:30:48.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T07:01:44.134Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\PaymentTypes\\Edit.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T12:54:53.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T08:01:05.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T10:47:26.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentChanges\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentChanges\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentChanges\\Delete.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\StudentChanges\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-01T12:11:55.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "DormContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\DormContext.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\DormContext.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\DormContext.cs",
+              "RelativeToolTip": "DormInfrastructure\\DormContext.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwHYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T15:36:40.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GuestVisitsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwFQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T20:56:01.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "GuestVisit.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\GuestVisit.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\GuestVisit.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\GuestVisit.cs",
+              "RelativeToolTip": "DormDomain\\Model\\GuestVisit.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T20:57:37.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StudentPayment.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentPayment.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\StudentPayment.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentPayment.cs",
+              "RelativeToolTip": "DormDomain\\Model\\StudentPayment.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:27:29.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Faculty.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Faculty.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\Faculty.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Faculty.cs",
+              "RelativeToolTip": "DormDomain\\Model\\Faculty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T07:59:51.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Student.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\Student.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Student.cs",
+              "RelativeToolTip": "DormDomain\\Model\\Student.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T07:54:18.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Room.cs",
+              "RelativeDocumentMoniker": "DormDomain\\Model\\Room.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Room.cs",
+              "RelativeToolTip": "DormDomain\\Model\\Room.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA0wBYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T21:04:27.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "FacultiesController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "RelativeToolTip": "DormInfrastructure\\Controllers\\FacultiesController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAUwAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:42:41.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Details.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Details.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Details.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAlwB4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T12:55:09.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\StudentPayments\\Edit.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\StudentPayments\\Edit.cshtml",
@@ -353,51 +747,11 @@
               "RelativeToolTip": "DormInfrastructure\\Views\\StudentPayments\\Edit.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAlwBUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:05:15.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T10:05:15.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Create.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Create.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Create.cshtml",
-              "ViewState": "AgIAABYAAAAAAAAAAAAlwCcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T07:58:45.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Edit.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Edit.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAlwCAAAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T12:28:20.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAlwDoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T07:46:29.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 42,
               "Title": "StudentPaymentsController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentPaymentsController.cs",
@@ -410,59 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "StudentChangesController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentChangesController.cs",
-              "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentChangesController.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAhwEAAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:59:09.032Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:30:48.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "StudentChange.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentChange.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\StudentChange.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentChange.cs",
-              "RelativeToolTip": "DormDomain\\Model\\StudentChange.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:06:31.105Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Rooms\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Rooms\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Rooms\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:47:26.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 43,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\_ViewImports.cshtml",
@@ -470,12 +772,11 @@
               "RelativeToolTip": "DormInfrastructure\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:28:48.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T10:28:48.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 44,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\_ViewStart.cshtml",
@@ -483,51 +784,11 @@
               "RelativeToolTip": "DormInfrastructure\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T10:28:47.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T10:28:47.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Room.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\Room.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Room.cs",
-              "RelativeToolTip": "DormDomain\\Model\\Room.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBYAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:04:27.071Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Index.cshtml",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAmwAMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T06:51:11.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAmwBoAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T22:05:16.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 45,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Edit.cshtml",
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Edit.cshtml",
@@ -535,12 +796,11 @@
               "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T06:54:47.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T06:54:47.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 46,
               "Title": "PaymentType.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\PaymentType.cs",
               "RelativeDocumentMoniker": "DormDomain\\Model\\PaymentType.cs",
@@ -548,12 +808,11 @@
               "RelativeToolTip": "DormDomain\\Model\\PaymentType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T21:05:43.301Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-19T21:05:43.301Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 47,
               "Title": "PaymentTypesController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\PaymentTypesController.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\PaymentTypesController.cs",
@@ -561,155 +820,11 @@
               "RelativeToolTip": "DormInfrastructure\\Controllers\\PaymentTypesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:57:08.735Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T20:57:08.735Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "StudentPayment.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentPayment.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\StudentPayment.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\StudentPayment.cs",
-              "RelativeToolTip": "DormDomain\\Model\\StudentPayment.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCAAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T09:27:29.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "GuestVisitsController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\GuestVisitsController.cs",
-              "RelativeToolTip": "DormInfrastructure\\Controllers\\GuestVisitsController.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAA7wAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T20:56:01.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Create.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Create.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T06:57:13.281Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "GuestVisit.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\GuestVisit.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\GuestVisit.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\GuestVisit.cs",
-              "RelativeToolTip": "DormDomain\\Model\\GuestVisit.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T20:57:37.902Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T08:01:56.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Delete.cshtml",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T06:58:09.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Details.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACAAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T07:00:39.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\GuestVisits\\Edit.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAB4AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T07:01:44.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Details.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Faculties\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Faculties\\Details.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Faculties\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T06:54:51.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Student.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\Student.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Student.cs",
-              "RelativeToolTip": "DormDomain\\Model\\Student.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAkwAYAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:54:18.157Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Faculty.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Faculty.cs",
-              "RelativeDocumentMoniker": "DormDomain\\Model\\Faculty.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Faculty.cs",
-              "RelativeToolTip": "DormDomain\\Model\\Faculty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-19T07:59:51.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 48,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\HomeController.cs",
@@ -721,31 +836,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "FacultiesController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\FacultiesController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\FacultiesController.cs",
-              "RelativeToolTip": "DormInfrastructure\\Controllers\\FacultiesController.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAkwAUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:42:41.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Details.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Details.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Details.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Details.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADgAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T07:44:21.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 49,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "DormInfrastructure\\wwwroot\\css\\site.css",
@@ -757,7 +848,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 50,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Program.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Program.cs",
