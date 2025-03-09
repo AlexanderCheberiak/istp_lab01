@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "ContainingType": "DormInfrastructure.Controllers.ChartsController",
+    "Method": "GetCountByCourseAsync",
+    "RelativePath": "api/Charts/countByCourse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DormInfrastructure.Controllers.ChartsController",
+    "Method": "GetCountByFacultyAsync",
+    "RelativePath": "api/Charts/countByFaculty",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

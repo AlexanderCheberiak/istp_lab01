@@ -1,41 +1,42 @@
-﻿@model DormDomain.Model.Room
+﻿@model DormDomain.Model.Room  
 
-@{
-    ViewData["Title"] = "Деталі";
-}
+@{  
+   ViewData["Title"] = "Деталі";  
+}  
 
-<h1>Деталі</h1>
+<h1>Деталі</h1>  
 
-<div>
-    <hr />
-    <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.RoomNumber)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.RoomNumber)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Capacity)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Capacity)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CreatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CreatedAt)
-        </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.UpdatedAt)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.UpdatedAt)
-        </dd>
-    </dl>
-</div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model?.RoomId">Оновити інформацію</a> |
-    <a asp-action="Index">Назад до списку</a>
+<div>  
+   <hr />  
+   <dl class="row">  
+       <dt class = "col-sm-2">  
+           @Html.DisplayNameFor(model => model.RoomNumber)  
+       </dt>  
+       <dd class = "col-sm-10">  
+           @Html.DisplayFor(model => model.RoomNumber)  
+       </dd>  
+       <dt class = "col-sm-2">  
+           @Html.DisplayNameFor(model => model.Capacity)  
+       </dt>  
+       <dd class = "col-sm-10">  
+           @Html.DisplayFor(model => model.Capacity)  
+       </dd>  
+       <dt class = "col-sm-2">  
+           @Html.DisplayNameFor(model => model.CreatedAt)  
+       </dt>  
+       <dd class = "col-sm-10">  
+           @Html.DisplayFor(model => model.CreatedAt)  
+       </dd>  
+       <dt class = "col-sm-2">  
+           @Html.DisplayNameFor(model => model.UpdatedAt)  
+       </dt>  
+       <dd class = "col-sm-10">  
+           @Html.DisplayFor(model => model.UpdatedAt)  
+       </dd>  
+   </dl>  
+</div>  
+
+<div>  
+   <a class = "btn btn-success" asp-action="Edit" asp-route-id="@Model?.RoomId">Оновити інформацію</a> |  
+   <a class= "btn btn-info" asp-action="Index">Назад до списку</a>  
 </div>

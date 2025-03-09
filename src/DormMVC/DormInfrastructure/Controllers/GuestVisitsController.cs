@@ -75,6 +75,16 @@ namespace DormInfrastructure.Controllers
                 TryValidateModel(guestVisit);
             }
 
+            if (guestVisit.VisitDate < DateOnly.FromDateTime(DateTime.Now.AddMonths(-1)));
+            {
+                ModelState.AddModelError("VisitDate", "Дата відвідування може біти не раніше місяця тому і не пізніше місяця від зараз.");
+            }
+
+            if (guestVisit.VisitDate > DateOnly.FromDateTime(DateTime.Now.AddMonths(1)));
+            {
+                ModelState.AddModelError("VisitDate", "Дата відвідування може біти не раніше місяця тому і не пізніше місяця від зараз.");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(guestVisit);

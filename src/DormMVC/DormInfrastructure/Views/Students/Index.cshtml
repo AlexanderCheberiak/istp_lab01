@@ -62,10 +62,49 @@
             </td>
             <td>
                     <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.StudentId">Оновити</a>
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.StudentId">Деталі</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.StudentId">Історія</a>
                     <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.StudentId">Видалити</a>
             </td>
         </tr>
 }
+        <div class="row">
+            <div class="col-3">
+                <div id="countByCourseChart"></div>
+            </div>
+        </div>
+
+        @section Scripts
+        {
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawCharts);
+
+                function drawCharts() {
+                    fetch('/api/charts/countByCourse')
+                        .then(response => response.json())
+                        .then(data => {
+                            const dataTable = new google.visualization.DataTable();
+                            dataTable.addColumn('string', 'Курс');
+                            dataTable.addColumn('number', 'Кількість студентів');
+
+                            data.forEach(item => {
+                                dataTable.addRow([item.faculty, item.count]);
+                         });
+
+                            const options = {
+                                title: 'Студенти за курсами',
+                                width: 600,
+                                height: 400,
+                                legend: { position: 'none' },
+                            };
+
+                            const chart = new google.visualization.ColumnChart(document.getElementById('countByCourseChart'));
+
+                            chart.draw(dataTable, options);
+                        });
+                }
+            </script>
+        }
     </tbody>
 </table>

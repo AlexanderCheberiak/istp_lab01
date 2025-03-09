@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DormDomain.Model;
 using DormInfrastructure;
+using System.Diagnostics;
 
 namespace DormInfrastructure.Controllers
 {
@@ -76,6 +77,27 @@ namespace DormInfrastructure.Controllers
                 ModelState.Clear();
                 TryValidateModel(studentPayment);
             }
+
+            if (studentPayment.Amount <= 0)
+            {
+                ModelState.AddModelError("Amount", "Сума має бути додатня.");
+            }
+
+            //if (studentPayment.PaymentDate <= DateOnly.FromDateTime(DateTime.Now.AddMonths(-1)));
+            //{
+            //    Debug.WriteLine(studentPayment.PaymentDate);
+            //    Debug.WriteLine(DateOnly.FromDateTime(DateTime.Now.AddMonths(-1)));
+            //    Debug.WriteLine("TOO EARLY");
+            //    ModelState.AddModelError("PaymentDate", "Дата платежу має бути не раніше ніж місяць тому і не пізніше ніж завтра.");
+            //}
+
+            //if (studentPayment.PaymentDate >= DateOnly.FromDateTime(DateTime.Now.AddDays(2)));
+            //{
+            //    Debug.WriteLine(studentPayment.PaymentDate);
+            //    Debug.WriteLine(DateOnly.FromDateTime(DateTime.Now.AddDays(2)));
+            //    Debug.WriteLine("TOO LATE");
+            //    ModelState.AddModelError("PaymentDate", "Дата платежу має бути не раніше ніж місяць тому і не пізніше ніж завтра.");
+            //}
 
             if (ModelState.IsValid)
             {

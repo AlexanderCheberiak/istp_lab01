@@ -74,6 +74,26 @@ namespace DormInfrastructure.Controllers
             ModelState.Clear();
             TryValidateModel(student);
 
+            if (student.Course <= 0 || student.Course >= 10)
+            {
+                ModelState.AddModelError("Course", "Номер курсу може бути від 1 до 10.");
+            }
+
+            if (student.BirthDate < new DateOnly(1900, 1, 1))
+            {
+                ModelState.AddModelError("BirthDate", "Дата народження має бути не раніше 1900 року.");
+            }
+
+            if (student.CreatedAt < DateTime.Now.AddYears(-10))
+            {
+                ModelState.AddModelError("CreatedAt", "Дата заселення має бути не раніше ніж 10 років тому.");
+            }
+
+            if (student.CreatedAt > DateTime.Now.AddMonths(1))
+            {
+                ModelState.AddModelError("CreatedAt", "Дата заселення має бути не пізніше ніж через місяць.");
+            }
+
             if (ModelState.IsValid)
             {
                 _context.Add(student);
@@ -122,6 +142,11 @@ namespace DormInfrastructure.Controllers
             ModelState.Clear();
             TryValidateModel(student);
 
+            if (student.Course <= 0 || student.Course >= 10)
+            {
+                ModelState.AddModelError("Course", "Номер курсу може бути від 1 до 10.");
+            }
+
             if (ModelState.IsValid)
             {
                 try
@@ -140,7 +165,7 @@ namespace DormInfrastructure.Controllers
                             {
                                 StudentId = student.StudentId,
                                 ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                ChangeField = "FullName",
+                                ChangeField = "Ім'я",
                                 OldValue = originalStudent.FullName,
                                 NewValue = student.FullName
                             });
@@ -151,7 +176,7 @@ namespace DormInfrastructure.Controllers
                             {
                                 StudentId = student.StudentId,
                                 ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                ChangeField = "BirthDate",
+                                ChangeField = "Дата народження",
                                 OldValue = originalStudent.BirthDate.ToString(),
                                 NewValue = student.BirthDate.ToString()
                             });
@@ -166,7 +191,7 @@ namespace DormInfrastructure.Controllers
                                 {
                                     StudentId = student.StudentId,
                                     ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                    ChangeField = "FacultyName",
+                                    ChangeField = "Факультет",
                                     OldValue = oldFaculty?.FacultyName,
                                     NewValue = newFaculty?.FacultyName
                                 });
@@ -179,7 +204,7 @@ namespace DormInfrastructure.Controllers
                                 {
                                     StudentId = student.StudentId,
                                     ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                    ChangeField = "RoomNumber",
+                                    ChangeField = "Номер кімнати",
                                     OldValue = oldRoom?.RoomNumber.ToString(),
                                     NewValue = newRoom?.RoomNumber.ToString()
                                 });
@@ -199,7 +224,7 @@ namespace DormInfrastructure.Controllers
                             {
                                 StudentId = student.StudentId,
                                 ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                ChangeField = "Course",
+                                ChangeField = "Курс",
                                 OldValue = originalStudent.Course.ToString(),
                                 NewValue = student.Course.ToString()
                             });
@@ -212,7 +237,7 @@ namespace DormInfrastructure.Controllers
                             {
                                 StudentId = student.StudentId,
                                 ChangeDate = DateOnly.FromDateTime(DateTime.Now),
-                                ChangeField = "RoomNumber",
+                                ChangeField = "Номер кімнати",
                                 OldValue = oldRoom?.RoomNumber.ToString(),
                                 NewValue = newRoom?.RoomNumber.ToString()
                             });

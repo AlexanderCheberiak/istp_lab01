@@ -24,7 +24,7 @@ public partial class Student
     public byte? FacultyId { get; set; }
 
     [Display(Name = "Курс")]
-    [Required(ErrorMessage = "Поле є обов'язковим!")]
+    [Required(ErrorMessage = "Недопустиме значення!")]
     public byte? Course { get; set; }
 
     [Display(Name = "Кімната")]

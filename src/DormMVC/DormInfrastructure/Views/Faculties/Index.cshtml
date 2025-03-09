@@ -15,12 +15,6 @@
             <th>
                 @Html.DisplayNameFor(model => model.Dean)
             </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CreatedAt)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.UpdatedAt)
-            </th>
             <th></th>
         </tr>
     </thead>
@@ -33,16 +27,47 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Dean)
             </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CreatedAt)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.UpdatedAt)
-            </td>
-            <td>
-                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.FacultyId">Деталі</a>
-            </td>
         </tr>
 }
+        <div class="row">
+            <div class="col-3">
+                <div id="countByFacultyChart"></div>
+            </div>
+        </div>
+
+        @section Scripts
+        {
+            <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+            <script type="text/javascript">
+                google.charts.load('current', {'packages':['corechart']});
+                google.charts.setOnLoadCallback(drawCharts);
+
+                function drawCharts() {
+                    fetch('/api/charts/countByFaculty')
+                        .then(response => response.json())
+                        .then(data => {
+                            const dataTable = new google.visualization.DataTable();
+                            dataTable.addColumn('string', 'Факультет');
+                            dataTable.addColumn('number', 'Кількість студентів');
+
+                            data.forEach(item => {
+                                dataTable.addRow([item.faculty, item.count]);
+                         });
+
+                            const options = {
+                                title: 'Студенти за факультетами',
+                                width: 600,
+                                height: 400,
+                                legend: { position: 'none' },
+                            };
+
+                            const chart = new google.visualization.PieChart(document.getElementById('countByFacultyChart'));
+
+                            chart.draw(dataTable, options);
+                        });
+                }
+            </script>
+        }
+
     </tbody>
 </table>

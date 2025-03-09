@@ -22,7 +22,7 @@ namespace DormInfrastructure.Controllers
         // GET: StudentChanges
         public async Task<IActionResult> Index(int? id, string? name)
         {
-            if (id == null) return RedirectToAction("Students", "Index");
+            if (id == null) return RedirectToAction("Index", "StudentChanges");
             //Find changes of a student
             ViewBag.StudentId = id;
             ViewBag.FullName = name;
