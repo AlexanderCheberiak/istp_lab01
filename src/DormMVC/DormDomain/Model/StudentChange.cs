@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class StudentChange
+public partial class StudentChange : Entity
 {
     [Display(Name = "ID зміни")]
     [Required(ErrorMessage = "Поле є обов'язковим!")]

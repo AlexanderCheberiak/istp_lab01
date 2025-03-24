@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DormDomain.Model;
 using DormInfrastructure;
+using DormInfrastructure.Services;
 
 namespace DormInfrastructure.Controllers
 {
@@ -14,6 +15,7 @@ namespace DormInfrastructure.Controllers
     {
 
         private readonly DormContext _context;
+        private StudentDataPortServiceFactory _studentDataPortServiceFactory;
 
         public StudentsController(DormContext context)
         {
@@ -47,11 +49,55 @@ namespace DormInfrastructure.Controllers
             return RedirectToAction("Index", "StudentChanges", new { id = student.StudentId, name = student.FullName });
         }
 
+        [HttpGet]
+        public IActionResult Import()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Import(IFormFile fileExcel, CancellationToken cancellationToken = default)
+        {
+            _studentDataPortServiceFactory = new StudentDataPortServiceFactory(_context);
+            var importService = _studentDataPortServiceFactory.GetImportService(fileExcel.ContentType);
+            using var stream = fileExcel.OpenReadStream();
+            await importService.ImportFromStreamAsync(stream, cancellationToken);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Export([FromQuery] string contentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    CancellationToken cancellationToken = default)
+        {
+            _studentDataPortServiceFactory = new StudentDataPortServiceFactory(_context);
+            var exportService = _studentDataPortServiceFactory.GetExportService(contentType);
+
+            var memoryStream = new MemoryStream();
+
+            await exportService.WriteToAsync(memoryStream, cancellationToken);
+
+            await memoryStream.FlushAsync(cancellationToken);
+            memoryStream.Position = 0;
+
+
+            return new FileStreamResult(memoryStream, contentType)
+            {
+                FileDownloadName = $"students_{DateTime.UtcNow.ToShortDateString()}.xlsx"
+            };
+        }
+
+
         // GET: Students/Create
         public IActionResult Create()
         {
+            var availableRooms = _context.Rooms
+                .Where(r => r.Students.Count() < r.Capacity)
+                .Select(r => new { r.RoomId, r.RoomNumber })
+                .ToList();
+
             ViewData["FacultyId"] = new SelectList(_context.Faculties, "FacultyId", "FacultyName");
-            ViewData["RoomId"] = new SelectList(_context.Rooms, "RoomId", "RoomNumber");
+            ViewData["RoomId"] = new SelectList(availableRooms, "RoomId", "RoomNumber");
             return View();
         }
 
@@ -74,6 +120,8 @@ namespace DormInfrastructure.Controllers
             ModelState.Clear();
             TryValidateModel(student);
 
+            //int studCount = await _context.Students.CountAsync(s => s.RoomId == student.RoomId);
+
             if (student.Course <= 0 || student.Course >= 10)
             {
                 ModelState.AddModelError("Course", "Номер курсу може бути від 1 до 10.");
@@ -93,6 +141,11 @@ namespace DormInfrastructure.Controllers
             {
                 ModelState.AddModelError("CreatedAt", "Дата заселення має бути не пізніше ніж через місяць.");
             }
+
+            //if (student.Room.Capacity <= studCount)
+            //{
+            //    ModelState.AddModelError("RoomId", "Кімната повністю зайнята");
+            //}
 
             if (ModelState.IsValid)
             {

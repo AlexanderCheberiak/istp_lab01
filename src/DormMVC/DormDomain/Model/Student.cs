@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace DormDomain.Model;
 
-public partial class Student
+public partial class Student : Entity
 {
     [Display(Name = "ID студента")]
     [Key]

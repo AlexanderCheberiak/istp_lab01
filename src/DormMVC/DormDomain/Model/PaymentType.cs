@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class PaymentType
+public partial class PaymentType : Entity
 {
     [Display(Name = "ID платежу")]
     [Required(ErrorMessage = "Поле є обов'язковим!")]

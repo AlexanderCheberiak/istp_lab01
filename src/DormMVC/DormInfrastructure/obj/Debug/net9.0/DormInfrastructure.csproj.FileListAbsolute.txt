@@ -557,3 +557,11 @@ C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\byb9apzkz7-dcpn1yequ1.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\t8x440wer7-xpgxgyn6m7.gz
 C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\obj\Debug\net9.0\compressed\1wimlvuxyk-zue256ldax.gz
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\ClosedXML.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\ClosedXML.Parser.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\DocumentFormat.OpenXml.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\ExcelNumberFormat.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\RBush.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\SixLabors.Fonts.dll
+C:\Users\HP\Desktop\uni\ISTP\istp_lab01\src\DormMVC\DormInfrastructure\bin\Debug\net9.0\System.IO.Packaging.dll

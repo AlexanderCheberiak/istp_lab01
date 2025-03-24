@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class Faculty
+public partial class Faculty : Entity
 {
     [Display(Name = "ID факультету")]
     [Required(ErrorMessage = "Поле є обов'язковим!")]

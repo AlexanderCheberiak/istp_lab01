@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class Room
+public partial class Room : Entity
 {
     [Display(Name = "ID кімнати")]
     [Required(ErrorMessage = "Поле є обов'язковим!")]

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class GuestVisit
+public partial class GuestVisit : Entity
 {
     [Display(Name = "ID відвідування")]
     public int VisitId { get; set; }

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace DormDomain.Model;
 
-public partial class StudentPayment
+public partial class StudentPayment : Entity
 {
     [DisplayName("ID оплати")]
     public short PaymentId { get; set; }
