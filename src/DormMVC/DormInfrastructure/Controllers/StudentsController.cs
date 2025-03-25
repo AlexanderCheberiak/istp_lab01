@@ -59,11 +59,19 @@ namespace DormInfrastructure.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Import(IFormFile fileExcel, CancellationToken cancellationToken = default)
         {
-            _studentDataPortServiceFactory = new StudentDataPortServiceFactory(_context);
-            var importService = _studentDataPortServiceFactory.GetImportService(fileExcel.ContentType);
-            using var stream = fileExcel.OpenReadStream();
-            await importService.ImportFromStreamAsync(stream, cancellationToken);
-            return RedirectToAction(nameof(Index));
+            try
+            {
+                _studentDataPortServiceFactory = new StudentDataPortServiceFactory(_context);
+                var importService = _studentDataPortServiceFactory.GetImportService(fileExcel.ContentType);
+                using var stream = fileExcel.OpenReadStream();
+                await importService.ImportFromStreamAsync(stream, cancellationToken);
+                return RedirectToAction(nameof(Index));
+            }
+            catch (Exception ex)
+            {
+                ViewBag.ErrorMessage = ex.Message;
+                return View();
+            }
         }
 
         [HttpGet]

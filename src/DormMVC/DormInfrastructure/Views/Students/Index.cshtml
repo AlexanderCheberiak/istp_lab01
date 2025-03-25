@@ -11,6 +11,10 @@
     <a class="btn btn-success" type="=submit" asp-area="" asp-controller="Students" asp-action="Import">Завантажити з файлу</a>
     <a class="btn btn-success" type="=submit" asp-area="" asp-controller="Students" asp-action="Export">Експортувати у файл</a>
 </p>
+@if (ViewBag.ErrorMessage != null)
+{
+    <div class="alert alert-danger">@ViewBag.ErrorMessage</div>
+}
 <table class="table">
     <thead>
         <tr>

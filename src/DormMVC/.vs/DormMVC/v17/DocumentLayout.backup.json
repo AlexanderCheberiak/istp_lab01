@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\services\\studentimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\services\\studentimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\services\\studentimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\services\\studentimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA840D2F-E1F5-4049-8B5F-899B980A364C}|DormDomain\\DormDomain.csproj|solutionrelative:dormdomain\\model\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|solutionrelative:dorminfrastructure\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AB8C12B1-2A2C-46CC-8E66-92BB5178D76B}|DormInfrastructure\\DormInfrastructure.csproj|c:\\users\\hp\\desktop\\uni\\istp\\istp_lab01\\src\\dormmvc\\dorminfrastructure\\views\\students\\import.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -250,7 +250,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -266,70 +266,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IDataPortServiceFactory.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
-              "RelativeToolTip": "DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T06:38:19.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Index.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAwDUAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-19T07:46:29.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "StudentImportService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentImportService.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Services\\StudentImportService.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentImportService.cs",
               "RelativeToolTip": "DormInfrastructure\\Services\\StudentImportService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwC4AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAgwFwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-15T06:38:44.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "StudentsController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "DormInfrastructure\\Controllers\\StudentsController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "DormInfrastructure\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAgwEEAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T07:54:08.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentDataPortServiceFactory.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
-              "RelativeDocumentMoniker": "DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
-              "RelativeToolTip": "DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T08:24:42.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormDomain\\Model\\Student.cs",
               "RelativeDocumentMoniker": "DormDomain\\Model\\Student.cs",
@@ -360,10 +323,47 @@
               "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Import.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Import.cshtml",
               "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Import.cshtml",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAUwBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-03-15T09:17:08.819Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "DormInfrastructure\\Views\\Students\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T07:46:29.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentDataPortServiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
+              "RelativeToolTip": "DormInfrastructure\\Services\\StudentDataPortServiceFactory.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T08:24:42.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDataPortServiceFactory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
+              "RelativeDocumentMoniker": "DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\uni\\ISTP\\istp_lab01\\src\\DormMVC\\DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
+              "RelativeToolTip": "DormInfrastructure\\Services\\IDataPortServiceFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-15T06:38:19.275Z"
             },
             {
               "$type": "Document",
@@ -375,8 +375,7 @@
               "RelativeToolTip": "DormInfrastructure\\Services\\StudentExportService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T10:25:30.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T10:25:30.852Z"
             },
             {
               "$type": "Document",

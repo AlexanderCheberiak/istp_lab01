@@ -46,6 +46,10 @@ namespace DormInfrastructure.Services
                             // For example, you can store the error message in a list and display it on the web page
                             throw new ValidationException(ex.Message);
                         }
+                        catch (System.OverflowException ex)
+                        {
+                            throw new ValidationException("Номер курсу має бути від 1 до 10.");
+                        }
                     }
                 }
             }
@@ -54,6 +58,10 @@ namespace DormInfrastructure.Services
 
         private async Task AddStudentAsync(IXLRow row, CancellationToken cancellationToken, Room room)
         {
+            if (room == null)
+            {
+                throw new InvalidOperationException("Кімнату не знайдено.");
+            }
             if (room.Students.Count >= room.Capacity)
             {
                 throw new InvalidOperationException($"Кімната {room.RoomNumber} не має вільних місць.");
@@ -66,6 +74,37 @@ namespace DormInfrastructure.Services
             student.CreatedAt = GetStudentDate(row);
             student.Room = room;
             await GetFacultyAsync(row, student, cancellationToken);
+
+            if (student.Faculty == null)
+            {
+                throw new InvalidOperationException("Факультет не знайдено.");
+            }
+
+            if (student.Room == null)
+            {
+                throw new InvalidOperationException("Кімнату не знайдено.");
+            }
+
+            if (student.Course <= 0 || student.Course >= 10)
+            {
+                throw new InvalidOperationException("Номер курсу може бути від 1 до 10.");
+            }
+
+            if (student.BirthDate < new DateOnly(1900, 1, 1))
+            {
+                throw new InvalidOperationException("Дата народження має бути не раніше 1900 року.");
+            }
+
+            if (student.CreatedAt < DateTime.Now.AddYears(-10))
+            {
+                throw new InvalidOperationException("Дата заселення має бути не раніше ніж 10 років тому.");
+            }
+
+            if (student.CreatedAt > DateTime.Now.AddMonths(1))
+            {
+                throw new InvalidOperationException("Дата заселення має бути не пізніше ніж через місяць.");
+            }
+
             _context.Students.Add(student);
         }
 
