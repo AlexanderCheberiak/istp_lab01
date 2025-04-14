@@ -1,0 +1,24 @@
+﻿@model UserProfileViewModel
+
+<h2>Ваш профіль</h2>
+
+<div>
+    <p><strong>Пошта:</strong> @Model.Email</p>
+    <p><strong>Ім'я:</strong> @Model.Name</p>
+    <p>
+        <strong>Роль:</strong>
+        @if (Model.Roles.Any())
+        {
+            @string.Join(", ", Model.Roles)
+        }
+        else
+        {
+            <em>Відсутня</em>
+        }
+    </p>
+</div>
+
+<form asp-controller="Account" asp-action="Logout" method="post">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Вийти з акаунту</button>
+</form>

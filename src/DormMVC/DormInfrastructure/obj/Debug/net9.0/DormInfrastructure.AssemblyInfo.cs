@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.AspNetCore.Identity.UI.UIFrameworkAttribute("Bootstrap5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("DormInfrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b421a0953b6fe9697a640d000cbb11fd269f7f69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e77a03492e5008dcfc655426800ebd90b2d1ad4")]
 [assembly: System.Reflection.AssemblyProductAttribute("DormInfrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DormInfrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using DormDomain.Model;
 using DormInfrastructure;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DormInfrastructure.Controllers
 {
+    [Authorize(Roles = "Admin, Manager, Manager Assistant")]
     public class RoomsController : Controller
     {
         private readonly DormContext _context;

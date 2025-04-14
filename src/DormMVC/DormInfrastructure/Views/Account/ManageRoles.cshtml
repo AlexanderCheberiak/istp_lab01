@@ -1,0 +1,37 @@
+﻿@model RoleManagementViewModel
+@{
+    ViewData["Title"] = "Зміна ролі";
+}
+
+<h2>Manage Roles for @Model.Email</h2>
+
+<form asp-action="ManageRoles" method="post">
+    <input type="hidden" asp-for="UserId" />
+
+    <div class="mb-3">
+        <label class="form-label">Роль зараз:</label>
+        <div>
+            @foreach (var role in Model.CurrentRoles)
+            {
+                <span class="badge bg-primary me-1">@role</span>
+            }
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SelectedRole" class="form-label">Змінити роль:</label>
+        <select asp-for="SelectedRole" class="form-select" asp-items="@(new SelectList(Model.AvailableRoles))">
+            <option value="">-- Оберіть роль --</option>
+        </select>
+        <span asp-validation-for="SelectedRole" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Оновити роль</button>
+    <a asp-action="UserList" class="btn btn-secondary ms-2">Назад</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

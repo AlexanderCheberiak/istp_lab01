@@ -8,9 +8,11 @@ using Microsoft.EntityFrameworkCore;
 using DormDomain.Model;
 using DormInfrastructure;
 using DormInfrastructure.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace DormInfrastructure.Controllers
 {
+    [Authorize(Roles = "Admin, Manager, Manager Assistant")]
     public class StudentsController : Controller
     {
 

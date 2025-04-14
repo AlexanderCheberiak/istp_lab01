@@ -1,0 +1,57 @@
+﻿@model DormInfrastructure.Models.UserListViewModel
+@inject UserManager<ApplicationUser> UserManager
+@using Microsoft.AspNetCore.Identity
+@using DormDomain.Model
+
+@{
+    var currentUserId = UserManager.GetUserId(User);
+}
+
+@{
+    ViewData["Title"] = "Користувачі";
+}
+
+<h2>Користувачі</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Пошта</th>
+            <th>Ролі</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model.Users)
+        {
+            <tr>
+                <td>@user.Email</td>
+                <td>
+                    @foreach (var role in user.Roles)
+                    {
+                        <span class="badge bg-primary me-1">@role</span>
+                    }
+                </td>
+                <td>
+                    @if (user.UserId != currentUserId && !(User.IsInRole("Manager") && user.Roles.Contains("Admin")))
+                    {
+                        <a asp-controller="Account" asp-action="ManageRoles" asp-route-userId="@user.UserId" class="btn btn-sm btn-outline-success">
+                            Змінити роль
+                        </a>
+                    }
+                <td>
+                        @if (User.IsInRole("Admin") && user.UserId != currentUserId)
+                        {
+                        <form asp-action="DeleteUser" method="post" asp-controller="Account" onsubmit="return confirm('Ви впевнені, що хочете видалити цього користувача?');">
+                            <input type="hidden" name="userId" value="@user.UserId" />
+                            <button type="submit" class="btn btn-sm btn-danger">Видалити</button>
+                        </form>
+                        }
+                </td>
+
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -660,8 +660,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ts9hdqgpk7</Fingerprint>
-      <Integrity>I5+cuODPSKLGpJ/0/r4LH5TgYcgM6o2hPTOgPvsXS/M=</Integrity>
+      <Fingerprint>n9r7feuqoe</Fingerprint>
+      <Integrity>NbP+vAs60ujX0lJLjOlsMh9Sh2s6FkyKZlFsNAEh5nY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.css'))</OriginalItemSpec>
@@ -678,8 +678,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dcpn1yequ1</Fingerprint>
-      <Integrity>Danb9CUJ00kfFntARCcIvjK9ufvxKVM2XSSt/3rc7vc=</Integrity>
+      <Fingerprint>0c5mp3zyov</Fingerprint>
+      <Integrity>gOZXPfe1iE/Ek2PlmjEg30OkEjyEHSMWHYxKN7Uy1wM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_quartz.min.css'))</OriginalItemSpec>
@@ -696,8 +696,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xpgxgyn6m7</Fingerprint>
-      <Integrity>5Zrdf9G/adF2x/O78/xa2DOT1JBBupcyha2yKkCw5Zk=</Integrity>
+      <Fingerprint>vmppy1pwj6</Fingerprint>
+      <Integrity>B+QvKNcYbvA1vbVWaKti0duss8G+woG74gkgp1/K6qQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.css'))</OriginalItemSpec>
@@ -714,8 +714,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zue256ldax</Fingerprint>
-      <Integrity>RbsqHObOK2rt/LQPmqWmDJ5zz0Q5IKJGqaSanKtSfFs=</Integrity>
+      <Fingerprint>7sb1joqhgf</Fingerprint>
+      <Integrity>GduSJBQ34XeUfzGl9+7hBob0J1oGw0+QVQT7h6Rek7Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap_united.min.css'))</OriginalItemSpec>

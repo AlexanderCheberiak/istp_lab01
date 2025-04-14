@@ -3,6 +3,9 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Вітання!</h1>
-    <img src="~/lib/vitannia.jpg" width="540" height="415"/>
+    <h1 class="display-4">Добрий день!</h1>
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <p>Щоб отримати доступ до більшості функцій веб-сайту, <a asp-controller="Account" asp-action="Login">увійдіть</a> або <a asp-controller="Account" asp-action="Register">зареєструйтеся</a>.</p>
+    }
 </div>

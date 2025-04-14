@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="~/DormInfrastructure.styles.css" asp-append-version="true" />
 </head>
 <body>
+    @using Microsoft.AspNetCore.Identity
+    @using DormDomain.Model
+    @inject UserManager<ApplicationUser> UserManager
+    @inject SignInManager<ApplicationUser> SignInManager
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container-fluid">
@@ -19,30 +23,50 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="Students" asp-action="" role="button" aria-haspopup="true" aria-expanded="false">Студенти</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="" asp-controller="Students" asp-action="">Список студентів</a>
-                                <!-- <a class="dropdown-item" asp-area="" asp-controller="StudentChanges" asp-action="">Історія змін</a> -->
-                                <a class="dropdown-item" asp-area="" asp-controller="Faculties" asp-action="">Факультети</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Rooms" asp-action="">Кімнати</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="StudentPayments" asp-action="" role="button" aria-haspopup="true" aria-expanded="false">Оплата</a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" asp-area="" asp-controller="StudentPayments" asp-action="">Список платежів</a>
-                                <a class="dropdown-item" asp-area="" asp-controller="PaymentTypes" asp-action="">Типи платежів</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="GuestVisits" asp-action="">Відвідування</a>
-                        </li>
-                    </ul>
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                        <ul class="navbar-nav flex-grow-1">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="Students" asp-action="" role="button" aria-haspopup="true" aria-expanded="false">Студенти</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="Students" asp-action="">Список студентів</a>
+                                    <!-- <a class="dropdown-item" asp-area="" asp-controller="StudentChanges" asp-action="">Історія змін</a> -->
+                                    <a class="dropdown-item" asp-area="" asp-controller="Faculties" asp-action="">Факультети</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Rooms" asp-action="">Кімнати</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="StudentPayments" asp-action="" role="button" aria-haspopup="true" aria-expanded="false">Оплата</a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" asp-area="" asp-controller="StudentPayments" asp-action="">Список платежів</a>
+                                    <a class="dropdown-item" asp-area="" asp-controller="PaymentTypes" asp-action="">Типи платежів</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="GuestVisits" asp-action="">Відвідування</a>
+                            </li>
+                        </ul>
+                    }
+                    
                 </div>
+
+                @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                {
+                    <a asp-controller="Account" asp-action="UserList" style="margin-right: 10px;">Користувачі </a>
+                }
+
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a asp-controller="Account" asp-action="Profile">Профіль</a>
+                }
+                else
+                {
+                    <a asp-controller="Account" asp-action="Login">Увійти</a>
+                }
+
+
             </div>
         </nav>
     </header>
@@ -61,5 +85,21 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
+
+
+    @if (TempData["ToastMessage"] != null)
+    {
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+            <div class="toast align-items-center text-bg-primary border-0 show" role="alert">
+                <div class="d-flex">
+                    <div class="toast-body">
+                        @TempData["ToastMessage"]
+                    </div>
+                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"></button>
+                </div>
+            </div>
+        </div>
+    }
+
 </body>
 </html>
