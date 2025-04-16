@@ -33,8 +33,10 @@
         <label asp-for="RememberMe" class="form-check-label"></label>
     </div>
 
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class="btn btn-primary">Увійти</button>
+
 </form>
+<button class="btn btn-info" asp-controller="Account" asp-action="ForgotPassword">Забули пароль?</button>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
